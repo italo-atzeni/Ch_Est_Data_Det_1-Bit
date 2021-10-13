@@ -22,6 +22,10 @@ The numerical results based on the analytical functions can be generated smoothl
 
 # How to generate the figures
 
+The main scripts to generate the figures are listed below. Each of these scripts saves a binary file in the "files_mat" folder. Note that the "files_mat" folder already contains all the binary files that are necessary for the plots.
+
+All the other scripts are used to compute specific functions and variables defined throughout the paper.
+
 **Figure 2**
 - MSE_VS_rho.mat: Plot the MSE of the channel estimation against the transmit SNR.
 - MSE_VS_rho_p1.mat: Plot the MSE of the channel estimation against the transmit SNR with K=1 and p=1_tau.
